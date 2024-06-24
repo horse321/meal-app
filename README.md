@@ -9,7 +9,6 @@ A React single-page application that displays a store menu, allows users to save
 - **Category Meals Page**: Displays meals for a selected category with the option to add/remove meals from favourites.
 - **Favourites Page**: Lists all meals added to favourites with the option to remove them.
 - **Random Meal Generator**: Generates a random meal with the option to add it to favourites.
-- **Dark/Light Theme Toggle**: Allows users to switch between dark and light themes.
 
 ## Technologies Used
 
@@ -37,11 +36,15 @@ Make sure you have the following installed:
 
 2. **Install Dependencies:**
 
-```sh
+   ```sh
    npm install
 
 3. **Running the Application:**
 
-```sh
+   ```sh
    npm run dev
+
+
+
+
 
