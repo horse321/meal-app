@@ -18,7 +18,7 @@ const CategoryMeals = () => {
 
   return (
     <div className="p-4">
-     <h1 className="text-6xl mb-16">Meals for {category}</h1>
+     <h1 className="text-6xl mb-16 text-center">Meals for {category}</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 " >
         {meals.map((meal) => (
           <MealCard key={meal.idMeal} meal={meal} />

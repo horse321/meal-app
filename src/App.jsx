@@ -26,8 +26,8 @@ const App = () => {
             </button>
         </div>
         </div>
-        <div className="flex-1 md:ml-64">
-          <div className="p-4">
+        <div className="flex-1 md:ml-16 mr-16">
+          <div className=" ml-80">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/menu" element={<Menu />} />

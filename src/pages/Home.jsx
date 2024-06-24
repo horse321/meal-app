@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div >
-      <h1 className="text-6xl mb-16">Home Page</h1>
-      <div className='grid lg:grid-cols-1 gap-8'>
+      <h1 className="text-6xl mb-16 text-center">Home Page</h1>
+      <div className='grid text-center lg:grid-cols-1 gap-8'>
         <Link to="/menu">
           <button className="px-6 py-3 bg-blue-500 text-3xl text-white rounded-md hover:bg-blue-600">
             Menu
