@@ -37,9 +37,11 @@ Make sure you have the following installed:
 
 2. **Install Dependencies:**
 
-npm install
+```sh
+   npm install
 
 3. **Running the Application:**
 
-npm run dev
+```sh
+   npm run dev
 
