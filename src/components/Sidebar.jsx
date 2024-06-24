@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <div className="p-4">
     
         <ul className="mt-4">
-          <li className="mb-8 mt-16 text-3xl">
+          <li className="mb-8 mt-28 text-3xl">
             <Link to="/" onClick={toggleSidebar} className="hover:underline">
               Homepage
             </Link>
