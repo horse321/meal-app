@@ -21,7 +21,7 @@ const MealGenerator = () => {
       <h1 className="text-6xl mb-16 ml-42 text-center">Random Meal Generator</h1>
       {meal && <MealCard meal={meal} />}
       <button
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+        className="mt-12 px-4 py-4  bg-blue-500 text-2xl text-white rounded"
         onClick={fetchRandomMeal}
       >
         Generate Another Meal

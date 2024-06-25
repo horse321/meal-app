@@ -17,7 +17,7 @@ const MenuPage = () => {
   return (
     <div >
       <h1 className="text-6xl mb-16 text-center">Menu</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
         {categories.map((category) => (
           <Link key={category.idCategory} to={`/menu/${category.strCategory}`}>
             <div className="bg-white p-4 rounded shadow hover:bg-gray-100 transition">
