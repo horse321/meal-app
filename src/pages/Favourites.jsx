@@ -8,7 +8,7 @@ const FavouritesPage = () => {
   return (
     <div className="favourites-page">
     <h1 className="text-6xl mb-16 text-center">My Favourite Meals</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {favouriteMeals.length === 0 ? (
           <p className="text-3xl">No favourite meals yet!</p>
         ) : (
