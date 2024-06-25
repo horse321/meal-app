@@ -16,8 +16,9 @@ const MealGenerator = () => {
   }, []);
 
   return (
-    <div className=" text-center h-32 w-96 items-center mx-80 ">
-      <h1 className="text-6xl mb-16 text-center">Random Meal Generator</h1>
+    
+    <div className=" text-center h-32 w-96 items-center mx-96 ">
+      <h1 className="text-6xl mb-16 ml-42 text-center">Random Meal Generator</h1>
       {meal && <MealCard meal={meal} />}
       <button
         className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
@@ -25,6 +26,7 @@ const MealGenerator = () => {
       >
         Generate Another Meal
       </button>
+    
     </div>
   );
 };
